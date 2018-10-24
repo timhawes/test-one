@@ -2,7 +2,7 @@ hello: hello.c
 	$(CC) -o hello hello.c
 
 test: hello
-	./test | grep "Hello"
+	./hello | grep "Hello"
 
 clean:
 	rm hello
