@@ -2,5 +2,5 @@
 
 int main(int argc, char const *argv[])
 {
-    printf("Hello World\n");
+    printf("Hi World\n");
 }
